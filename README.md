@@ -1,7 +1,7 @@
 # Harvard CS50AI Projects
 *Jul 2025 - Aug 2025*
 
-All 12 completed projects from Harvard CS50's Introduction to Artificial Intelligence with Python course.
+Completed all 12 projects from Harvard CS50's Introduction to Artificial Intelligence with Python course.
 
 ## Overview
 0. Search
