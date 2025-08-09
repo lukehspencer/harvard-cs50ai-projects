@@ -45,6 +45,7 @@ def get_mask_token_index(mask_token_id, inputs):
     Return the index of the token with the specified `mask_token_id`, or
     `None` if not present in the `inputs`.
     """
+    # Gets all input ids, goes through them all, and checks if one equals the mask token id
     input_ids = inputs["input_ids"][0]
     for index, token_id in enumerate(input_ids):
         if token_id == mask_token_id:
@@ -61,6 +62,7 @@ def get_color_for_attention_score(attention_score):
     Return a tuple of three integers representing a shade of gray for the
     given `attention_score`. Each value should be in the range [0, 255].
     """
+    # Multiply attention score by 255, round it, and use it for color shading
     gray_shade = 255 * attention_score.numpy()
     rounded = round(gray_shade)
     
@@ -80,6 +82,7 @@ def visualize_attentions(tokens, attentions):
     include both the layer number (starting count from 1) and head number
     (starting count from 1).
     """
+    # Generate the attention score diagrams for every attention head in each attention layer
     for i in range(len(attentions)):
         for k in range(len(attentions)):
             generate_diagram(i+1, k+1, tokens, attentions[i][0][k])
