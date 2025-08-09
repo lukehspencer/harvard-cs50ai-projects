@@ -6,7 +6,7 @@ Completed all 12 projects from Harvard CS50's Introduction to Artificial Intelli
 ## Overview
 0. Search
    - [degrees](./degrees/): AI that solves the Six Degrees of Kevin Bacon problem by finding the connections between actors through movies using BFS
-   - [tictactoe](./tictactoe/)`: unbeatable tic-tac-toe AI using minimax algorithm with alpha-beta pruning
+   - [tictactoe](./tictactoe/): unbeatable tic-tac-toe AI using minimax algorithm with alpha-beta pruning
 1. Knowledge
    - [knights](./knights/): solve "Knights and Knaves" logic puzzle games
    - [minesweeper](./minesweeper/): knowledge-based minesweeper AI that makes makes moves based on its knowledge base and inferences
