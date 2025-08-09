@@ -1,6 +1,5 @@
 import itertools
 import random
-import random
 
 class Minesweeper():
     """
