@@ -19,7 +19,7 @@ Completed all 12 projects from Harvard CS50's Introduction to Artificial Intelli
    - [Shopping](./shopping/): K-Nearest Neighbors model that predicts whether or not a person purchased an item (~40% true positive rate and ~90% true negative rate)
    - [Nim](./nim/): reinforcement learning agent that plays the game Nim through the Q-learning algorithm
 5. Neural Networks
-   - [Traffic](./traffic/): CNN model that classifies traffic signs using tensorflow (~98% accuracy)
+   - [Traffic](./traffic/): CNN model that classifies traffic signs using TensorFlow (~98% accuracy)
 6. Language
    - [Parser](./parser/): AI that parses sentences and extracts noun phrases using the nltk library
    - [Attention](./attention/): MLM that predicts a masked word in a text sequence using the BERT transformer from Hugging Face
