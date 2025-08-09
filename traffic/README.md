@@ -1,0 +1,3 @@
+**Model Tuning**
+
+For this CNN, I first added a feature map with 32 filters on a 3x3 kernel and pooling layers (2x2) and then added another feature map layer with 64 filters with the same kernel and pooling layer to help reduce the number of inputs into the CNN. I managed to achieve an accuracy of 0.9881 on the testing data. I tried adding another hidden layer with 64 neurons but it decreased my accuracy. I noticed that adding different amounts of feature map layers and pooling layers seemed to either slightly increase or decrease my accuracy score.
