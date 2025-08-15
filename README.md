@@ -21,7 +21,7 @@ Completed all 12 projects from Harvard CS50's Introduction to Artificial Intelli
 5. Neural Networks
    - [Traffic](./traffic/): CNN model that classifies traffic signs based on 25,000+ images using TensorFlow (~98% accuracy)
 6. Language
-   - [Parser](./parser/): AI that parses sentences and extracts noun phrases using the nltk library
+   - [Parser](./parser/): AI that parses sentences and extracts noun phrases using NLTK
    - [Attention](./attention/): MLM that predicts a masked word in a text sequence using the BERT transformer from Hugging Face
 
 ## Certificate
