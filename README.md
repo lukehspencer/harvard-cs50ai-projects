@@ -9,7 +9,7 @@ All 12 completed projects from Harvard CS50's Introduction to Artificial Intelli
    - [Tic-Tac-Toe](./tictactoe/): unbeatable tic-tac-toe AI using minimax algorithm with alpha-beta pruning
 1. Knowledge
    - [Knights](./knights/): solve "Knights and Knaves" logic puzzle games
-   - [Minesweeper](./minesweeper/): knowledge-based minesweeper AI that makes makes moves based on its knowledge base and inferences
+   - [Minesweeper](./minesweeper/): knowledge-based minesweeper AI that makes makes safe moves based on logical inferences and knowledge it gathers form the board
 2. Uncertainity
    - [PageRank](./pagerank/): AI that implements Google's PageRank algorithm using both the random surfer model and the PageRank formula
    - [Heredity](./heredity/): AI that calculates the probability of a particular genetic trait existing in a given person based on oneself's and family's genetic data
