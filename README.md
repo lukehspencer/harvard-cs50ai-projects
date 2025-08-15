@@ -16,10 +16,10 @@ All 12 completed projects from Harvard CS50's Introduction to Artificial Intelli
 3. Optimization
    - [Crossword](./crossword/): AI that generates crossword puzzles by ensuring node and arc consistency across all words and implementing backtracking search for optimized puzzles
 4. Learning
-   - [Shopping](./shopping/): KNN model that predicts whether or not a person purchased an item based on 12,000+ shopping records (~40% TPR and ~90% TNR)
+   - [Shopping](./shopping/): KNN model that predicts whether or not a person purchased an item based on 12K+ shopping records (~40% TPR and ~90% TNR)
    - [Nim](./nim/): reinforcement learning agent that plays the game Nim through the Q-learning algorithm
 5. Neural Networks
-   - [Traffic](./traffic/): CNN model that classifies traffic signs based on 25,000+ images using TensorFlow (~98% accuracy)
+   - [Traffic](./traffic/): CNN model that classifies traffic signs based on 25K+ images using TensorFlow (~98% accuracy)
 6. Language
    - [Parser](./parser/): AI that parses sentences and extracts noun phrases using NLTK
    - [Attention](./attention/): MLM that predicts a masked word in a text sequence using the BERT transformer from Hugging Face
